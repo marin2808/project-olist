@@ -1,5 +1,4 @@
 data/raw/
-data/clean/
 .venv/
 __pycache__/
 .ipynb_checkpoints/
