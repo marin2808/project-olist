@@ -3,4 +3,4 @@ SELECT CASE WHEN n_of_days_overdue BETWEEN 1 AND 3 THEN '1-3 days' WHEN n_of_day
 FROM orders
 WHERE in_review_analysis = 1 AND month_of_purchase >= '2017-01'
 GROUP BY delay_group
-ORDER BY (n_of_days_overdue)
+ORDER BY n_of_days_overdue
